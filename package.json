@@ -1,0 +1,12 @@
+{
+  "name": "habibi-soul-kitchen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium home for Habibi Soul Kitchen in Milltown, New Jersey.",
+  "scripts": {
+    "start": "node preview.mjs",
+    "preview": "npm run start",
+    "check": "node --check script.js && node --check build.mjs && node --check preview.mjs",
+    "build": "node build.mjs"
+  }
+}
